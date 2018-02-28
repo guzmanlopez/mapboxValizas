@@ -3,7 +3,7 @@
 
 <head>
     <meta charset=utf-8 />
-    <title>Batimetría Valizas</title>
+    <title>Mapa de la Batimetría del Arroyo Valizas</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
     <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
@@ -26,7 +26,7 @@
 
     <style>
         .ui-button {
-            background: #3887BE;
+            background: #4D4D4D;
             color: #FFF;
             display: block;
             position: absolute;
@@ -42,7 +42,7 @@
         }
 
         .ui-button:hover {
-            background: #3074a4;
+            background: #272822;
             color: #fff;
         }
     </style>
@@ -85,9 +85,8 @@
                     coordinates: [e.latlng.lng, e.latlng.lat]
                 },
                 properties: {
-                    'title': 'Estoy acá!',
-                    'marker-color': '#272822',
-                    'marker-symbol': 'star'
+                    'title': 'Acá',
+                    'marker-color': '#272822'
                 }
             });
 
