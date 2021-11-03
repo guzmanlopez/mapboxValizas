@@ -4,4 +4,4 @@
 
 ![screenshot](https://github.com/guzmanlopez/mapboxValizas/blob/master/fig/Screenshot.png  "screenshot")
 
-[Ir al Mapa](https://cdn.rawgit.com/guzmanlopez/mapboxValizas/master/index.html)
+[Ir al Mapa](https://guzmanlopez.github.io/mapboxValizas/)
